@@ -87,14 +87,15 @@
                     <xcad:LayoutDocumentPaneGroup >
                         <xcad:LayoutDocumentPane>
                             <xcad:LayoutDocument ContentId="document1" Title="Document 1" IconSource="C:\Users\yv-sandreikin\CalkRelay\CalkRelay\Resources\alarm-clock-blue.png" >
-                                <Canvas HorizontalAlignment="Stretch" AllowDrop="True" VerticalAlignment="Stretch" Background="White" x:Name="CircuitCanvas">
-                                    <Path Stroke="Black" StrokeThickness="1">
-                                        <Path.Data>
-                                            <GeometryGroup x:Name="Connections"/>
-                                        </Path.Data>
-                                    </Path>
-                                </Canvas>
-
+                                <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" >
+                                    <Canvas Height="2000" Width="2000" AllowDrop="True" Background="White" x:Name="CircuitCanvas">
+                                        <Path Stroke="Black" StrokeThickness="1">
+                                            <Path.Data>
+                                                <GeometryGroup x:Name="Connections"/>
+                                            </Path.Data>
+                                        </Path>
+                                    </Canvas>
+                                </ScrollViewer>
                             </xcad:LayoutDocument>
                             <xcad:LayoutDocument ContentId="document2" Title="Document 2" IconSource="C:\Users\yv-sandreikin\CalkRelay\CalkRelay\Resources\alarm-clock.png">
                                 <TextBox Text="Document 2 Content" AcceptsReturn="True"/>
