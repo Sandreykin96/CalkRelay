@@ -7,9 +7,9 @@
              mc:Ignorable="d" 
              Height="35" Width="70">
     <Grid Background="White" >
-        <BaseObjects:Connection x:Name="Connection2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,14,0,13" RenderTransformOrigin="0.5,-0.429" Height="8" Width="7"/>
+        <BaseObjects:ConnectionPoint x:Name="Connection2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,14,0,13" RenderTransformOrigin="0.5,-0.429" Height="8" Width="7"/>
         <Ellipse  Width = "35" Height="35" Stroke="Black" HorizontalAlignment="Right" Margin="0,0,7,0" />
         <Ellipse Width = "35" Height="35" HorizontalAlignment="Right" Stroke="Black" Margin="0,0,28,0"  />
-        <BaseObjects:Connection x:Name="Connection2_Copy" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,14,63,13" RenderTransformOrigin="0.5,-0.429" Height="8" Width="7"/>
+        <BaseObjects:ConnectionPoint x:Name="Connection2_Copy" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,14,63,13" RenderTransformOrigin="0.5,-0.429" Height="8" Width="7"/>
     </Grid>
 </BaseObjects:CircuitObject>

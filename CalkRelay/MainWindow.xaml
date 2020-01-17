@@ -103,7 +103,7 @@
                     </xcad:LayoutDocumentPaneGroup >
                     <xcad:LayoutAnchorablePaneGroup DockWidth="125">
                         <xcad:LayoutAnchorablePane>
-                            <xcad:LayoutAnchorable ContentId="alarms" Title="Alarms" IconSource="C:\Users\yv-sandreikin\CalkRelay\CalkRelay\Resources\alarm-clock.png" >
+                            <xcad:LayoutAnchorable ContentId="PowerElements" Title="Power system elements" IconSource="C:\Users\yv-sandreikin\CalkRelay\CalkRelay\Resources\alarm-clock.png" >
                                 <ListView x:Name="ObjectSelector"   VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  PreviewMouseDown="ObjectSelector_PreviewMouseDown">
                                     <ListView.ItemContainerStyle>
                                         <Style TargetType="ListViewItem">
